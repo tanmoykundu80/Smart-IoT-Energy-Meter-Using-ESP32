@@ -5,7 +5,7 @@ In today's technologically advanced world, energy management is a critical aspec
 ## Components and Tools
 
 ### Hardware Components
-- **ESP32 Development Board**: The core microcontroller used for processing and connectivity.
+- **ESP32 Development Board**: The core microcontroller is used for processing and connectivity.
 - **ACS712 Current Sensor**: Measures the AC current flowing through a load.
 - **ZMPT101B Voltage Sensor**: Measures the AC voltage across a load.
 - **I2C LCD Display**: Displays real-time data such as voltage, current, power, energy consumption, and cost.
@@ -63,25 +63,25 @@ In today's technologically advanced world, energy management is a critical aspec
 - **WiFi.h**: For Wi-Fi connectivity.
 - **BlynkSimpleEsp32.h**: For Blynk 2.0 integration.
 - **Wire.h**: For I2C communication.
-- **LiquidCrystal_I2C.h**: For LCD display control.
+- **LiquidCrystal_I2C.h**: For LCD control.
 - **UniversalTelegramBot.h**: For Telegram bot integration.
 
 ### 4. **Calculating Energy and Cost**
 
 - **Voltage Measurement**: Convert the analog reading from the ZMPT101B sensor to the actual AC voltage.
-- **Current Measurement**: Convert the analog reading from the ACS712 sensor to the actual AC current.
+- **Current Measurement**: Convert the analog reading from the ACS712 sensor to the actual AC.
 - **Power Calculation**: \( \text{Power} = \text{Voltage} \times \text{Current} \)
 - **Energy Consumption**: Integrate power over time to find the total energy consumed.
 - **Cost Calculation**: Multiply the total energy consumed by the cost per unit of energy.
 
 ## Conclusion
 
-This smart IoT energy meter offers a comprehensive solution for monitoring and managing household energy consumption. The integration with Blynk 2.0 provides an intuitive user interface for real-time data visualization, while the Telegram bot adds an additional layer of convenience with automated billing notifications. By leveraging modern IoT technologies, this project not only helps in monitoring energy consumption but also contributes to energy conservation efforts.
+This smart IoT energy meter offers a comprehensive solution for monitoring and managing household energy consumption. The integration with Blynk 2.0 provides an intuitive user interface for real-time data visualization, while the Telegram bot adds layer of convenience with automated billing notifications. By leveraging modern IoT technologies, this project helps monitor energy consumption and contributes to energy conservation efforts.
 
 ## Future Enhancements
 
 - **Data Logging**: Implement data logging for historical analysis.
-- **Smart Control**: Add features for controlling appliances based on energy usage patterns.
+- **Smart Control**: Add appliance control features based on energy usage patterns.
 - **Advanced Analytics**: Use machine learning algorithms to predict future consumption and optimize energy use.
 
-This guide should provide a solid foundation for anyone looking to build and expand upon a smart IoT energy meter system. Whether you're a hobbyist, student, or professional, this project can be an excellent way to explore the intersection of IoT, data analytics, and smart home technologies.
+This guide should provide a solid foundation for building and expanding a smart IoT energy meter system. Whether you're a hobbyist, student, or professional, this project can be an excellent way to explore the intersection of IoT, data analytics, and smart home technologies.
