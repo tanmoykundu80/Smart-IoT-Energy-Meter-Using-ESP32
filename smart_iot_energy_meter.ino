@@ -1,5 +1,5 @@
-#define BLYNK_TEMPLATE_ID "TMPL3UXWPFv5r"
-#define BLYNK_TEMPLATE_NAME "Smart IoT Energy Meter"
+#define BLYNK_TEMPLATE_ID "**************"
+#define BLYNK_TEMPLATE_NAME "**************"
 #define BLYNK_PRINT Serial
 
 #include "EmonLib.h"
@@ -14,17 +14,17 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Define your Telegram bot token and chat ID
-const char* telegramBotToken = "7289322914:AAE_SYjVm8NU68dJjAuJhRc0nqxi9YnQ8GE";
-const char* telegramChatID = "1033253127";
+const char* telegramBotToken = "**************";
+const char* telegramChatID = "**************";
 
 // Constants for calibration
 const float vCalibration = 41.5;
 const float currCalibration = 1.80;
 
 // Blynk and WiFi credentials
-const char auth[] = "P3_vnl6M15Ej3hQAwyP7lMMTB3kzg6IU";
-const char ssid[] = "Electro Gadget";
-const char pass[] = "Tanmoy#Wifi@80";
+const char auth[] = "**************";
+const char ssid[] = "**************";
+const char pass[] = "**************";
 
 // EnergyMonitor instance
 EnergyMonitor emon;
