@@ -85,3 +85,4 @@ This smart IoT energy meter offers a comprehensive solution for monitoring and m
 - **Advanced Analytics**: Use machine learning algorithms to predict future consumption and optimize energy use.
 
 This guide should provide a solid foundation for building and expanding a smart IoT energy meter system. Whether you're a hobbyist, student, or professional, this project can be an excellent way to explore the intersection of IoT, data analytics, and smart home technologies.
+For full step by step guide check out this link: https://circuitdiagrams.in/iot-smart-energy-meter-using-esp32
